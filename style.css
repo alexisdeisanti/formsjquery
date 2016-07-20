@@ -1,0 +1,33 @@
+.login{
+	border-radius: 40px;
+	border: solid blue;
+	width: 300px;
+	color: #FF98CB;
+	text-align: center;
+}
+.submit-btn{
+	background-color: blue;
+	border-radius: 10px;
+	color: white;
+	border: 0;
+	height: 40px;
+	width: 80px;
+	font-family: Arial;
+	font-size: 20px;
+}
+.username-input{
+	background-color: pink;
+	width: 200px;
+	border: 0;
+	border-radius: 2px;
+}
+ .password-input{
+	background-color: pink;
+	width: 200px;
+	border: 0;
+	border-radius: 2px;
+}
+hr{
+	background-color: blue;
+	height:1px;
+}

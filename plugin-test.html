@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+	<head>
+		<title>J Query Plugin Test</title>
+		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="jquery-ui-1.11.4.custom/jquery-ui.js"></script>
+		 <script>
+  $(function() {
+    $( "#draggable" ).draggable();
+  });
+  </script>
+   <script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  </script>
+
+  <style>
+
+  </style>
+		 <style>
+  			#draggable { 
+  				width: 120px; 
+  				height: 110px; 
+  				padding: 0.3em; 
+  				border: 1px solid black;
+  				border-radius: 20px;
+  				font-size: 24px;
+  				color: #8816FA;
+  				background-image: url('krusty.jpeg');
+  				text-align: center;
+  			} 
+			  label {
+			    display: inline-block;
+			    width: 5em;
+			  }
+  </style>
+	</head>
+	<body>
+		<div id="draggable" class="ui-widget-content">
+  		<p>Hey Hey!</p>
+		</div>
+ 		<p>Date: <input type="text" id="datepicker"></p>
+ 
+	</body>
+</html
